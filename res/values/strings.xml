@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="SplashScreen">Fresh Life Radio</string>
+    <string name="app_name">Fresh Life Radio</string>
+	<string name="playPauseLabel">Play</string>
+	<string name="stream_url">rtsp://freshlifestreaming.com:1935/radio/myStream.sdp</string>
+	<string name="notification_paused">Station is paused</string>
+	<string name="notification_buffering">Station is buffering</string>
+	<string name="notification_playing">Station is playing</string>
+	
+	<string name="menu_quit">Quit</string>
+	
+</resources>
