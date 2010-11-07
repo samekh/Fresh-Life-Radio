@@ -1,6 +1,8 @@
 package com.radio.freshlife;
 
 
+import javax.xml.parsers.SAXParserFactory;
+
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
@@ -30,7 +32,6 @@ public class RadioMain extends Activity implements
 	private ImageView windowBG;
 	private FLRInterface flrInterface;
 	public void onBufferingUpdate(MediaPlayer mp, int percent) {
-		int i = 3;
 		
 	}
 	
@@ -111,6 +112,12 @@ public class RadioMain extends Activity implements
             	
             }
     };
+    
+    private void getAlbumInfo(){
+    	SAXParserFactory spf = SAXParserFactory.newInstance();
+    	
+    	s
+    }
     
     private void playStream() {
     	try {

@@ -11,3 +11,4 @@ public class Main extends Activity {
         setContentView(R.layout.main);
     }
 }
+
